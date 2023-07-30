@@ -1,0 +1,109 @@
+/* Réinitialisation des styles pour uniformiser le rendu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles spécifiques pour votre site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00aeff;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    border-radius: 50%; /* Ajouter un arrondi aux coins de l'image (utile pour les photos de profil) */
+    width: 150px; /* Ajuster la largeur de l'image selon vos préférences */
+    height: 150px; /* Ajuster la hauteur de l'image selon vos préférences */
+    margin-bottom: 10px; /* Ajouter une marge en bas de l'image */
+    border: 2px solid #353434; /* Ajouter une bordure blanche autour de l'image (facultatif) */
+}
+
+header h1 {
+    color: #000000;
+    font-size: 28px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section  {
+    margin-bottom: 30px;
+}
+/* Réinitialisation des styles pour uniformiser le rendu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles spécifiques pour le bouton */
+button.rounded-button {
+    background-color: #ffffff;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px; /* Ajustez ce chiffre pour contrôler le rayon des coins */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: 2px solid #000000; /* Ajouter une bordure blanche autour de l'image (facultatif) */
+}
+
+button.rounded-button:hover {
+    background-color: #ffffff; /* Couleur différente au survol du bouton */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+ul a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+
+ul img {
+    border-radius: 50%; /* Ajouter un arrondi aux coins de l'image (utile pour les photos de profil) */
+    width: 30px; /* Ajustez la largeur selon vos préférences */
+    height: auto; /* La hauteur s'ajustera automatiquement pour conserver les proportions de l'image */
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer {
+    text-align: right;
+    padding: 30px;
+    background-color: #ffffff;
+    color: #000000;
+}
+footer img {
+    border-radius: 50%; /* Ajouter un arrondi aux coins de l'image (utile pour les photos de profil) */
+    width: 15px; /* Ajustez la largeur selon vos préférences */
+    height: auto; /* La hauteur s'ajustera automatiquement pour conserver les proportions de l'image */
+}
